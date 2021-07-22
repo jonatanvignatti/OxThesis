@@ -72,7 +72,7 @@
 % CRESTS
 %
 
-\def\crest{{\includegraphics{figures/beltcrest.pdf}}}
+\def\crest{{\includegraphics{figures/usm.png}}}
 
 
 %
@@ -225,7 +225,7 @@
 {\large \vspace*{1ex}
     {{\@college} \par}
 \vspace*{1ex}
-    {University of Oxford \par}
+    {Universidad Técnica Federico Santa María \par}
 \vspace*{20mm}
     {{\submittedtext} \par}
 \vspace*{1ex}
@@ -296,7 +296,7 @@
     {Thesis word count: {\@wordcount} \par}
 \else
     {{\@college} \par}
-    {University of Oxford \par}
+    {Universidad Técnica Federico Santa María\par}i
 \fi
 \vspace*{1ex}
     {{\it \submittedtext} \par}
