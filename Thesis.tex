@@ -63,7 +63,7 @@
 \renewcommand*{\bibfont}{\raggedright\small}
 
 % Change this to the name of your .bib file (usually exported from a citation manager like Zotero or EndNote).
-\addbibresource{references.bib}
+%\addbibresource{references.bib}
 
 
 % Uncomment this if you want equation numbers per section (2.3.12), instead of per chapter (2.18):
@@ -86,7 +86,7 @@
 % Uncomment the following line if your degree also includes exams (eg most masters):
 \renewcommand{\submittedtext}{Submitted in partial completion of the}
 % Your full degree name.  (But remember that DPhils aren't "in" anything.  They're just DPhils.)
-\degree{Doctor of Philosophy}
+\degree{PhD in physical sciences}
 % Term and year of submission, or date if your board requires (eg most masters)
 
 \degreedate{}
@@ -101,9 +101,11 @@
 	\renewcommand{\st}{\textsuperscript{st}}
 	\newcommand{\rd}{\textsuperscript{rd}}
 
+
+\usepackage{physics}
+
 %%%%% THE ACTUAL DOCUMENT STARTS HERE
 \begin{document}
-
 
 
 %%%%% CHOOSE YOUR LINE SPACING HERE
@@ -191,6 +193,8 @@
 % glossary, etc.
 \include{text/abbreviations}
 
+
+
 % The Roman pages, like the Roman Empire, must come to its inevitable close.
 \end{romanpages}
 
@@ -200,7 +204,7 @@
 \flushbottom
 \include{text/ch1-intro}
 \include{text/ch2-litreview}
-
+\include{text/ch3-meson-decay}
 
 %% APPENDICES %% 
 % Starts lettered appendices, adds a heading in table of contents, and adds a

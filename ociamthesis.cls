@@ -72,7 +72,7 @@
 % CRESTS
 %
 
-\def\crest{{\includegraphics{figures/usm.png}}}
+\def\crest{{\includegraphics[scale=0.5]{figures/usm.jpeg}}}
 
 
 %
